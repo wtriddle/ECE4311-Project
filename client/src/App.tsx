@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { Button, TextField, Typography, Container } from '@mui/material';
+import { server_link } from "./constants"
 
 interface AuthenticationResults {
   result: boolean
@@ -31,7 +32,7 @@ function App() {
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: credentials
         };
-        const response = await fetch('http://localhost:4000/authenticate', requestOptions);
+        const response = await fetch(server_link + '/authenticate', requestOptions);
         const json: AuthenticationResults =  await response.json();
         setAuth(json.result);
         // Do something with the ID and Message here
@@ -54,11 +55,25 @@ function App() {
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: credentials
         };
-        const response = await fetch('http://localhost:4000/file', requestOptions);
+        const response = await fetch(server_link + '/file', requestOptions);
         console.log(response);
     }
     postData();
   }
+
+    // Create User Button Function
+    const create_user = () => {
+      // Goal: Write code to submit a new user to the database at http://localhost:55657/user 
+      // Note: You can hard coded link or the server_link + '/user' notation
+      // Steps if you need help
+      // 1. Make a new button next to the login button (<Button ... >Create User </Button>)
+      // 2. Connect the click functionality of that button to call this function
+      // 3. Make a POST request to the endpoint and look at the response (see submit_authentication function)
+      // Optional: Look at the different responses if user is already existing or if its entirely a new user, and do something with it
+
+
+    }
+
 
   // Display client photo
   async function displayPhoto() {
@@ -107,7 +122,7 @@ function App() {
     <Button  color="primary" variant="contained"   onClick={() => {
       submit_authentication();
     }}>Login</Button>
-
+    
       <Typography variant="h5" justifySelf={"center"} color="primary">
         {
           auth?

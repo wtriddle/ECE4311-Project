@@ -1,0 +1,33 @@
+total 20
+drwxrwxr-x 3 wtriddle wtriddle 4096 Apr 20 08:36 .
+drwxrwxr-x 3 wtriddle wtriddle 4096 Apr 16 12:04 ..
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 cd
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 echo
+-rw-rw-r-- 1 wtriddle wtriddle  131 Apr 20 08:33 logs.txt
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 ls
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:36 os_params.txt
+-rw-rw-r-- 1 wtriddle wtriddle  930 Apr 20 08:36 pipeService.js
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 16 12:04 spawningService.js
+drwxrwxr-x 2 wtriddle wtriddle 4096 Apr 16 12:04 Testing
+total 24
+drwxrwxr-x 3 wtriddle wtriddle 4096 Apr 20 08:36 .
+drwxrwxr-x 3 wtriddle wtriddle 4096 Apr 16 12:04 ..
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 cd
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 echo
+-rw-rw-r-- 1 wtriddle wtriddle  131 Apr 20 08:33 logs.txt
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 ls
+-rw-rw-r-- 1 wtriddle wtriddle  580 Apr 20 08:36 os_params.txt
+-rw-rw-r-- 1 wtriddle wtriddle  930 Apr 20 08:36 pipeService.js
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 16 12:04 spawningService.js
+drwxrwxr-x 2 wtriddle wtriddle 4096 Apr 16 12:04 Testing
+total 24
+drwxrwxr-x 3 wtriddle wtriddle 4096 Apr 20 08:36 .
+drwxrwxr-x 3 wtriddle wtriddle 4096 Apr 16 12:04 ..
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 cd
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 echo
+-rw-rw-r-- 1 wtriddle wtriddle  131 Apr 20 08:33 logs.txt
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 20 08:31 ls
+-rw-rw-r-- 1 wtriddle wtriddle 1160 Apr 20 08:40 os_params.txt
+-rw-rw-r-- 1 wtriddle wtriddle  930 Apr 20 08:36 pipeService.js
+-rw-rw-r-- 1 wtriddle wtriddle    0 Apr 16 12:04 spawningService.js
+drwxrwxr-x 2 wtriddle wtriddle 4096 Apr 16 12:04 Testing

@@ -1,0 +1,151 @@
+April 20th 2022, 8:52:05 am: test_name test_pass
+images
+listed_dir.txt
+logs.txt
+node_modules
+package.json
+package-lock.json
+server.ts
+tsconfig.json
+total 180
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle      0 Apr 20 08:52 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle    148 Apr 20 08:52 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6904 Apr 20 08:51 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 180
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle      0 Apr 20 08:52 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle    792 Apr 20 08:52 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6895 Apr 20 08:53 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+April 20th 2022, 10:28:47 am: test_name ls -la
+April 20th 2022, 10:30:40 am: test_name ls -la
+April 20th 2022, 10:31:45 am: test_name ls -la
+April 20th 2022, 10:32:11 am: test_name ls -la
+April 20th 2022, 10:32:42 am: test_name ls -la
+total 184
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle   1932 Apr 20 10:33 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   1671 Apr 20 10:32 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6938 Apr 20 10:32 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 184
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle    644 Apr 20 10:33 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2315 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6938 Apr 20 10:32 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 180
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle      0 Apr 20 10:33 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2315 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6938 Apr 20 10:32 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 184
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle    644 Apr 20 10:33 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2959 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6892 Apr 20 10:34 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 184
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle   1288 Apr 20 10:38 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2959 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6892 Apr 20 10:34 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 180
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle      0 Apr 20 10:33 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2315 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6938 Apr 20 10:32 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 184
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle    644 Apr 20 10:33 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2959 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6892 Apr 20 10:34 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 184
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle   1288 Apr 20 10:38 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2959 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6892 Apr 20 10:34 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 188
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle   1932 Apr 20 10:38 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   4891 Apr 20 10:38 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6892 Apr 20 10:34 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+April 20th 2022, 11:02:18 am: test_name test_pass
+April 20th 2022, 11:14:35 am: test_param test_param
+April 20th 2022, 11:14:41 am: test_param test_param
+April 20th 2022, 11:14:57 am: test_param test_param
+April 20th 2022, 11:51:53 am: test_param test_param
+April 20th 2022, 11:51:57 am: test_name test_pass
+April 20th 2022, 11:52:19 am: test_param test_param
+April 20th 2022, 11:53:27 am: test_param test_param
+April 20th 2022, 11:53:30 am: test_param test_param
+April 20th 2022, 12:58:40 pm: test_param1 test_param1
+April 20th 2022, 12:58:44 pm: test_param4 test_param4
+April 20th 2022, 12:58:44 pm: test_param4 test_param4
+April 20th 2022, 12:59:09 pm: test_param4 test_param4
+April 20th 2022, 3:32:45 pm: test_param7 test_param7
+April 20th 2022, 3:32:45 pm: test_param7 test_param7
+April 20th 2022, 3:32:46 pm: test_param7 test_param7

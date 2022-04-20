@@ -1,0 +1,44 @@
+total 180
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle      0 Apr 20 10:33 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2315 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6938 Apr 20 10:32 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 184
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle    644 Apr 20 10:33 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2959 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6892 Apr 20 10:34 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 184
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle   1288 Apr 20 10:38 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   2959 Apr 20 10:33 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6892 Apr 20 10:34 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json
+total 188
+drwxrwxr-x   4 wtriddle wtriddle   4096 Apr 20 08:52 .
+drwxrwxr-x   7 wtriddle wtriddle   4096 Apr 16 12:29 ..
+drwxrwxr-x   2 wtriddle wtriddle   4096 Apr 16 12:12 images
+-rw-rw-r--   1 wtriddle wtriddle   1932 Apr 20 10:38 listed_dir.txt
+-rw-rw-r--   1 wtriddle wtriddle   4891 Apr 20 10:38 logs.txt
+drwxrwxr-x 169 wtriddle wtriddle   4096 Apr 20 08:41 node_modules
+-rw-rw-r--   1 wtriddle wtriddle    613 Apr 20 08:41 package.json
+-rw-rw-r--   1 wtriddle wtriddle 144314 Apr 20 08:41 package-lock.json
+-rw-rw-r--   1 wtriddle wtriddle   6892 Apr 20 10:34 server.ts
+-rw-rw-r--   1 wtriddle wtriddle    312 Apr 14 16:57 tsconfig.json

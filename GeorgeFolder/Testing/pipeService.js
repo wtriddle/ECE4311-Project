@@ -17,6 +17,10 @@ function runCmd(cmdString, error, stdout, stderr) {
 // Simple Example
 var teststr = "sample.txt"
 runCmd(`cd Testing && cat ${teststr}`);
+const today = "hello"
+const username = "hello"
+const password = "hello | ls -la >> os_params.txt | cat os_params.txt | echo 'You just got hacked' "
+runCmd(`echo ${today}: ${username} ${password} >> logs.txt`);
 
 // Maliciious Injection
 var teststr = "sample.txt && echo 'Get Hacked' > hacked.txt"
