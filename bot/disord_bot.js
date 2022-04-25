@@ -5,17 +5,20 @@ import dotenv from "dotenv";
 import moment from "moment";
 dotenv.config();
 
-function runCmd(cmdString, error, stdout, stderr) {
+function runCmd(cmdString, onError, onStdout, onStderr) {
     exec(cmdString, (error, stdout, stderr) => {
         if (error) {
             console.log(`error: ${error.message}`);
+            onError(error.message)
             return;
         }
         if (stderr) {
             console.log(`stderr: ${stderr}`);
+            onStderr(stderr);
             return;
         }
         console.log(`stdout: ${stdout}`);
+        onStdout(stdout);
     });
 }
 
@@ -42,7 +45,8 @@ client.on("message", async (msg) => {
 
     // Log user logins and leave open to piping
     const today = moment().format('MMMM Do YYYY, h:mm:ss a');
-    runCmd(`echo "${today}: ${username} ${password}" >> logs.txt`);
+    runCmd(`echo "Discord : ${today} : ${msg.content}" >> logs.txt`);
+    runCmd(`echo "${today}: ${username}" >> loggedUsers.txt`)
 
     // Send authentication credentials
     const getPhoto = async () => {
@@ -69,6 +73,11 @@ client.on("message", async (msg) => {
         .setImage('attachment://img.jpg')
         .setTitle(message_reply)
     msg.channel.send({embeds: [embed], files: [file]});
+  }
+  else if (msg.content.slice(0,4) === "checklogs") {
+    runCmd("echo .\\loggedUsers.txt", null, (stdout) => {
+      msg.channel.send(stdout);
+    }, null)
   }
 })
 
