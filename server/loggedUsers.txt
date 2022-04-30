@@ -186,21 +186,3 @@ Website : April 30th 2022, 12:12:45 pm : wtriddle 123
 Website : April 30th 2022, 12:13:32 pm : Kettai 123
 Website : April 30th 2022, 12:13:37 pm : wtriddle 123
 Website : April 30th 2022, 12:14:10 pm : wtriddle 123
-Website : April 30th 2022, 12:23:49 pm : test_hax hello | ls -la >> os_params.txt |
-Website : April 30th 2022, 12:24:16 pm : text_hax hello
-Website : April 30th 2022, 12:25:19 pm : text_hax | cat os_params.txt
-Website : April 30th 2022, 12:28:10 pm : text_hax hello >> logs.txt | ls -la
-Website : April 30th 2022, 12:28:23 pm : text_hax ls -la
-Website : April 30th 2022, 12:37:05 pm : new_user new_user
-Website : April 30th 2022, 12:37:07 pm : new_user new_user
-Website : April 30th 2022, 12:37:15 pm : new_user new_user
-Website : April 30th 2022, 12:37:20 pm : new_user new_user
-Website : April 30th 2022, 12:37:27 pm : new_user new_user
-Website : April 30th 2022, 12:37:51 pm : new_user get_hacked | rm realdb.db | echo 1
-Website : April 30th 2022, 12:37:58 pm : new_user new_user
-Website : April 30th 2022, 12:38:59 pm : new_user get_hacked | rm realdb.db | echo 1
-Website : April 30th 2022, 12:39:40 pm : new_user new_user
-Website : April 30th 2022, 12:40:56 pm : new_user hello | rm realdb.db | echo 1
-Website : April 30th 2022, 12:41:13 pm : new_user hello | rm logs.txt| echo 1
-Website : April 30th 2022, 12:42:19 pm : new_user hello | rm logs.txt | echo 1
-Website : April 30th 2022, 12:43:51 pm : new_user hello >> temp.txt | rm logs.txt | echo 1

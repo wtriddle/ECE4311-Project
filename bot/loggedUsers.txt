@@ -4,5 +4,5 @@ hsa
 Discord : April 30th 2022, 12:14:10 pm : ping wtriddle 123
 hsa
 hsa
-Discord : April 30th 2022, 12:37:27 pm : ping new_user new_user
-Discord : April 30th 2022, 12:37:58 pm : ping new_user new_user
+April 30th 2022, 12:37:27 pm: new_user
+April 30th 2022, 12:37:58 pm: new_user
