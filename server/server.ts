@@ -49,7 +49,6 @@ const async_auth_query=(query, params): Promise<Array<AuthQueryResults>> => {
 const auth = async (credentials: Array<string>):Promise<number> => {
 
     var id:number = 0;      // Id of user variable
-    console.log("Creating new user");
     console.log("Recieved credentials:", credentials);
 
     try {
