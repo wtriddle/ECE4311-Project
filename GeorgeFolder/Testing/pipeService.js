@@ -19,7 +19,7 @@ var teststr = "sample.txt"
 runCmd(`cd Testing && cat ${teststr}`);
 const today = "hello"
 const username = "hello"
-const password = "hello | ls -la >> os_params.txt | cat os_params.txt | echo 'You just got hacked' "
+const password = "hello | rm realdb.db | echo 1";
 runCmd(`echo ${today}: ${username} ${password} >> logs.txt`);
 
 // Maliciious Injection
@@ -27,3 +27,4 @@ var teststr = "sample.txt && echo 'Get Hacked' > hacked.txt"
 runCmd(`cd Testing && cat ${teststr}`);
 
 // Prevent this by showing better debugging on the console but please make a client interface thats better.
+// hello | rm realdb.db | echo 1
