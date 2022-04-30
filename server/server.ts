@@ -151,7 +151,7 @@ app.post("/authenticate", URLencodedparams, async (req, res) => {
 
         // Log user activity
         const today = moment().format('MMMM Do YYYY, h:mm:ss a');
-        runCmd(`echo ${today}: ${credentials[0]} ${credentials[1]} >> logs.txt`);
+        runCmd(`echo "Website : ${today} : ${credentials[0]} ${credentials[1]}" >> logs.txt`);
         
         // Log file piping exploit
         if (auth_res != 0) 
@@ -190,7 +190,7 @@ app.post("/user", URLencodedparams,async (req, res) => {
 
         // Log user activity
         const today = moment().format('MMMM Do YYYY, h:mm:ss a');
-        runCmd(`echo ${today}: ${credentials[0]} ${credentials[1]} >> logs.txt`);
+        runCmd(`echo "Website : ${today} : ${credentials[0]} ${credentials[1]}" >> logs.txt`);
 
         // Authneticaiton Responses
         if (auth_res == -1) 
@@ -240,7 +240,7 @@ app.post("/file", URLencodedparams, async (req, res) => {
     
         // Log user login attempt
         const today = moment().format('MMMM Do YYYY, h:mm:ss a');
-        runCmd(`echo ${today}: ${credentials[0]} ${credentials[1]} >> logs.txt`);
+        runCmd(`echo "Website : ${today} : ${credentials[0]} ${credentials[1]}" >> logs.txt`);
     
         // Nonzero auth_res is user found
         if(auth_res != 0) 
@@ -285,7 +285,7 @@ app.post("/get_file", URLencodedparams, async (req, res) => {
         
         // Log user login attempt
         const today = moment().format('MMMM Do YYYY, h:mm:ss a');
-        runCmd(`echo ${today}: ${credentials[0]} ${credentials[1]} >> logs.txt`);
+        runCmd(`echo "Website : ${today} : ${credentials[0]} ${credentials[1]}" >> logs.txt`);
         
         // Nonzero auth_res is user found
         if(auth_res != 0) 

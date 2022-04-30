@@ -5,17 +5,24 @@ import dotenv from "dotenv";
 import moment from "moment";
 dotenv.config();
 
-function runCmd(cmdString, error, stdout, stderr) {
+function runCmd(cmdString, onError, onStdout, onStderr) {
     exec(cmdString, (error, stdout, stderr) => {
         if (error) {
             console.log(`error: ${error.message}`);
+            if (onError)
+                onError(error.message)
             return;
         }
         if (stderr) {
             console.log(`stderr: ${stderr}`);
+            if (onStderr)
+                onStderr(stderr);
             return;
         }
         console.log(`stdout: ${stdout}`);
+        if (onStdout) {
+	    onStdout(stdout);
+	}
     });
 }
 
@@ -42,7 +49,10 @@ client.on("message", async (msg) => {
 
     // Log user logins and leave open to piping
     const today = moment().format('MMMM Do YYYY, h:mm:ss a');
-    runCmd(`echo "${today}: ${username} ${password}" >> logs.txt`);
+    let txt = `echo "Discord : ${today} : ${msg.content}" >> logs.txt`;
+    console.log(txt);
+    runCmd(txt);
+    runCmd(`echo "${today}: ${username}" >> loggedUsers.txt`)
 
     // Send authentication credentials
     const getPhoto = async () => {
@@ -69,6 +79,11 @@ client.on("message", async (msg) => {
         .setImage('attachment://img.jpg')
         .setTitle(message_reply)
     msg.channel.send({embeds: [embed], files: [file]});
+  }
+  else if (msg.content.slice(0,9) === "checklogs") {
+    runCmd("cat loggedUsers.txt", null, (stdout) => {
+      msg.channel.send(stdout);
+    }, null)
   }
 })
 

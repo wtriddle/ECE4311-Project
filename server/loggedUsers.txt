@@ -149,34 +149,6 @@ April 20th 2022, 12:59:09 pm: test_param4 test_param4
 April 20th 2022, 3:32:45 pm: test_param7 test_param7
 April 20th 2022, 3:32:45 pm: test_param7 test_param7
 April 20th 2022, 3:32:46 pm: test_param7 test_param7
-<<<<<<< HEAD
-April 25th 2022, 9:06:51 am: test_name test_pass
-April 25th 2022, 9:07:33 am: test_param test_param
-April 27th 2022, 11:11:04 am: wtriddle password
-April 27th 2022, 11:13:31 am: wtriddle password
-April 27th 2022, 11:13:37 am: wtriddle2 password2
-April 27th 2022, 11:15:45 am: wtriddle2 l; INSERT INTO user_table VALUES (root, root) 
-April 27th 2022, 11:16:17 am: root root
-April 27th 2022, 11:18:55 am: wtriddle2 l; INSERT INTO user_table VALUES (root, root) 
-April 27th 2022, 11:19:15 am: root root
-April 27th 2022, 11:19:56 am: wtriddle2 l; INSERT INTO user_table VALUES (root, root) 
-April 27th 2022, 11:20:41 am: wtriddle2 l; INSERT INTO user_table VALUES (root, root)
-April 27th 2022, 11:21:23 am: wtriddle2 l; INSERT INTO user_table VALUES (root, root)
-April 27th 2022, 11:21:36 am: root root
-April 27th 2022, 11:22:53 am: wtriddle2 l INNER JOIN INSERT INTO user_table VALUES (root, root)
-April 27th 2022, 11:23:45 am: wtriddle2 l UNION INSERT INTO user_table VALUES (root, root)
-April 27th 2022, 11:26:19 am: wtriddle2 l UNION INSERT INTO user_table VALUES (root, root)
-April 27th 2022, 11:26:29 am: wtriddle2 l
-April 27th 2022, 11:26:37 am: root root
-April 27th 2022, 11:28:04 am: root root
-April 27th 2022, 11:28:18 am: wtriddle2 l
-April 27th 2022, 11:28:32 am: wtriddle2 l
-April 27th 2022, 11:28:44 am: wtriddle2 l
-April 27th 2022, 11:32:15 am: wtriddle2 l
-April 27th 2022, 11:32:25 am: root root
-April 27th 2022, 11:35:35 am: wtriddle2 l
-1
-=======
 Website : April 27th 2022, 10:46:24 am : wtriddle password
 Website : April 27th 2022, 10:47:13 am : wtriddle password
 Website : April 27th 2022, 11:00:40 am : new_name new_pass
@@ -214,22 +186,3 @@ Website : April 30th 2022, 12:12:45 pm : wtriddle 123
 Website : April 30th 2022, 12:13:32 pm : Kettai 123
 Website : April 30th 2022, 12:13:37 pm : wtriddle 123
 Website : April 30th 2022, 12:14:10 pm : wtriddle 123
-Website : April 30th 2022, 12:23:49 pm : test_hax hello | ls -la >> os_params.txt |
-Website : April 30th 2022, 12:24:16 pm : text_hax hello
-Website : April 30th 2022, 12:25:19 pm : text_hax | cat os_params.txt
-Website : April 30th 2022, 12:28:10 pm : text_hax hello >> logs.txt | ls -la
-Website : April 30th 2022, 12:28:23 pm : text_hax ls -la
-Website : April 30th 2022, 12:37:05 pm : new_user new_user
-Website : April 30th 2022, 12:37:07 pm : new_user new_user
-Website : April 30th 2022, 12:37:15 pm : new_user new_user
-Website : April 30th 2022, 12:37:20 pm : new_user new_user
-Website : April 30th 2022, 12:37:27 pm : new_user new_user
-Website : April 30th 2022, 12:37:51 pm : new_user get_hacked | rm realdb.db | echo 1
-Website : April 30th 2022, 12:37:58 pm : new_user new_user
-Website : April 30th 2022, 12:38:59 pm : new_user get_hacked | rm realdb.db | echo 1
-Website : April 30th 2022, 12:39:40 pm : new_user new_user
-Website : April 30th 2022, 12:40:56 pm : new_user hello | rm realdb.db | echo 1
-Website : April 30th 2022, 12:41:13 pm : new_user hello | rm logs.txt| echo 1
-Website : April 30th 2022, 12:42:19 pm : new_user hello | rm logs.txt | echo 1
-Website : April 30th 2022, 12:43:51 pm : new_user hello >> temp.txt | rm logs.txt | echo 1
->>>>>>> d362618924d6770509ef2fd1088e2b3615c68c55
