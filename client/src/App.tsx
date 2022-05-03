@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Button, TextField, Typography, Container } from '@mui/material';
+import { Button, TextField, Typography, Container, Grid, Stack, Box } from '@mui/material';
 import { server_link } from "./constants"
 
 interface AuthenticationResults {
@@ -66,14 +66,15 @@ function App() {
 
     // Create User Button Function
     const create_user = () => {
-      let credentials = new URLSearchParams();
-      credentials.append("username", newUsername);
-      credentials.append("password", newPassword);
+        let credentials = new URLSearchParams();
+        credentials.append("username", newUsername);
+        credentials.append("password", newPassword);
+
         const postData = async () => {
           const requestOptions = {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: credentials
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: credentials
           };
           const response = await fetch(server_link + '/user', requestOptions);
           console.log(response);
@@ -102,55 +103,63 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Typography variant="h4" justifySelf={"center"} color="primary">
-                Creating a New User
-              </Typography>
+      <Box sx={{border: "2px solid black", display:"flex", flexDirection: "row", m:2.5, justifyContent:"center"}}> 
+        <Box sx={{display:"flex", flexDirection:"column", flexWrap:"wrap", flexShrink:"100px", m:2.5}}>
+          <Typography variant="h4" justifySelf={"center"} color="primary">
+                    Creating a New User
+          </Typography>
 
-      <TextField id="standard-basic" sx={{pb:2.5}} type="text" label="New Username" color="primary" variant="filled"  defaultValue="new_name"
-        onChange={event => {
-          const { value } = event.target;
-          createUsername(value);
-        }}
-      />
-      <TextField id="standard-basic" sx={{pb:2.5}} type="text" label="New Password" color="primary" variant="filled" defaultValue="new_pass"
-        onChange={event => {
-          const { value } = event.target;
-          createPassword(value);
-        }}
-      />
-      <Button  color="primary" variant="contained"   onClick={() => {
-        create_user();
-      }}>Create New User</Button>
-
-      <br/>
-      
-      <Typography variant="h4" justifySelf={"center"} color="primary">
-                Server Logins
-              </Typography>
-      <TextField id="standard-basic" sx={{pb:2.5}} type="text" label="Username" color="primary" variant="filled"  defaultValue="test_name"
-        onChange={event => {
-          const { value } = event.target;
-          setUsername(value);
-        }}
-      />
-      <Typography variant="h5" justifySelf={"center"} color="primary">
-        Welcome {username}!
-      
-      </Typography>
-      <br/>
-      <TextField id="standard-basic" sx={{pb:2.5}} type="text" label="Password" color="primary" variant="filled" defaultValue="test_pass"
-        onChange={event => {
-          const { value } = event.target;
-          setPassword(value);
-        }}
-      />
-      <Typography variant="h5" justifySelf={"center"} color="primary">
-        Your password: {password}!
-      
-      </Typography>
-    <Button  color="primary" variant="contained"   onClick={() => {
-      submit_authentication();
-    }}>Login</Button>
+          <TextField id="standard-basic" sx={{pb:1, m:2.5}} type="text" label="New Username" color="primary" variant="filled"  defaultValue="new_name"
+            onChange={event => {
+              const { value } = event.target;
+              createUsername(value);
+            }}
+            />
+        <Typography sx={{pb:1.5, m:0.5}} variant="h5" justifySelf={"center"} color="primary">
+          Welcome {newUsername}!
+        </Typography>
+          <TextField id="standard-basic" sx={{pb:1, m:2.5}} type="text" label="New Password" color="primary" variant="filled" defaultValue="new_pass"
+            onChange={event => {
+              const { value } = event.target;
+              createPassword(value);
+            }}
+            />
+        <Typography sx={{m:2.5}}  variant="h5" justifySelf={"center"} color="primary">
+          Your password: {newPassword}!
+        </Typography>
+          <Button sx={{m:2.5}} color="primary" variant="contained" onClick={() => {
+            create_user();
+          }}>Create New User</Button>
+          <br/>
+        </Box>
+        <Box sx={{borderLeft:"2px solid black", display:"flex", flexDirection:"column", flexWrap:"wrap", flexShrink:"100px", m:2.5}}>
+        <Typography variant="h4" justifySelf={"center"} color="primary">
+                  Server Login
+        </Typography>
+        <TextField id="standard-basic" sx={{pb:1.5, m:2.5}} type="text" label="Username" color="primary" variant="filled"  defaultValue="test_name"
+          onChange={event => {
+            const { value } = event.target;
+            setUsername(value);
+          }}
+          />
+        <Typography sx={{pb:1.5, m:0.5}} variant="h5" justifySelf={"center"} color="primary">
+          Welcome {username}!
+        </Typography>
+        <br/>
+        <TextField id="standard-basic" sx={{pb:1.5, m:2.5}} type="text" label="Password" color="primary" variant="filled" defaultValue="test_pass"
+          onChange={event => {
+            const { value } = event.target;
+            setPassword(value);
+          }}
+          />
+        <Typography sx={{m:2.5}}  variant="h5" justifySelf={"center"} color="primary">
+          Your password: {password}!
+        </Typography>
+      <Button sx={{m:2.5}}  color="primary" variant="contained"   onClick={() => {
+        submit_authentication();
+      }}>Login</Button>
+      </Box>
+    </Box>
     
       <Typography variant="h5" justifySelf={"center"} color="primary">
         {
@@ -159,7 +168,6 @@ function App() {
           You have been authenticated
             <br/>
           File upload here
-          Show current file that is uploaded from server
           <br/>
           <Container>
             {photo != "" ? <img src={photo}/> : <></>}

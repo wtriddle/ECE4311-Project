@@ -6,3 +6,5 @@ hsa
 hsa
 Discord : April 30th 2022, 12:37:27 pm : ping new_user new_user
 Discord : April 30th 2022, 12:37:58 pm : ping new_user new_user
+"Discord : May 3rd 2022, 1:12:49 pm : ping name pass" 
+"Discord : May 3rd 2022, 1:13:09 pm : ping name pass" 

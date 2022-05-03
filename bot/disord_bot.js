@@ -61,7 +61,7 @@ client.on("message", async (msg) => {
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: credentials
         };
-        const response = await fetch('http://localhost:55657/get_file', requestOptions);
+        const response = await fetch('http://localhost:4000/get_file', requestOptions);
         const json =  await response.json();
 
         // Set auth_res and show red dot when authentication rejected

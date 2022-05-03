@@ -1,3 +1,4 @@
+// REST API with in-file database and REST functions to create and read users from the database
 import * as express from "express";
 import * as sqlite3 from "sqlite3";
 import * as cors from "cors";
@@ -7,8 +8,8 @@ import * as moment from "moment";
 import { exec } from "child_process";
 
 
-// DB Init (executes right away)
-const db = new sqlite3.Database("realdb.db");    // In memory database for testing
+// DB Init
+const db = new sqlite3.Database("realdb.db");    // In file database 
 db.run("CREATE TABLE IF NOT EXISTS user_table (username TEXT, password TEXT)");  // Create table
 
 // Interface for AuthQueryResults
@@ -132,7 +133,7 @@ app.use(express.json({limit: '50mb'}));
 app.use(express.urlencoded({limit: '50mb'}));
 
 // Port setup & listening
-const port = 55657;
+const port = 4000;
 app.listen(port, () => {
     console.log("server is running at ", port);
 });
